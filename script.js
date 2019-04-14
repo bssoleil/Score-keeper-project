@@ -9,6 +9,10 @@ let btnPlayer1 = document.getElementsByClassName("btnPlayer1")[0];
 let btnPlayer2 = document.getElementsByClassName("btnPlayer2")[0];
 let btnReset = document.getElementsByClassName("btnReset")[0];
 
+
+let tagBody = document.getElementsByTagName('body')[0];
+
+
 let score1 = 0;
 let score2 = 0;
 let maxScore = 5;
@@ -66,3 +70,6 @@ function resetScore() {
     console.log(score2);
 }
 
+function darkMode() { 
+    tagBody.classList.toggle('darkMode');
+}
