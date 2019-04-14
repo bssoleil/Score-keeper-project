@@ -6,6 +6,7 @@
 h1 {
     text-align: center;
     font-size: 5em;
+    margin-bottom: 1em;
 }
 
 body {
@@ -15,21 +16,28 @@ body {
   background: white;
   color: black;
   margin: 3em;
+  
 }
 
 button {
-    background: grey;
+    background:gray ;
     color: black;
     border: none;
     border-radius: 10px;
     padding: 10px 15px;
     margin: 5px;
+    margin-bottom: 1em;
+    margin-top: 0px; 
     font-size: 1.2em;
     font-family: monospace;
     font-weight: bold;
     cursor: pointer;
   }
 
+  button:hover {
+    color: #fff;
+    background-color: lightslategrey;
+}
   
 
 
@@ -67,10 +75,4 @@ button {
 
 
 
-/* .btnReset {
-    position: relative;
-    bottom: 5%;
-    width: 60%;
-    display: flex;
-  flex-wrap: wrap;
-} */
+    
