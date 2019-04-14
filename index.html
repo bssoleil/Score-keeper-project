@@ -7,18 +7,40 @@
     <link type="text/css" rel="stylesheet" href="style.css">
     <title>Score Keeper</title>
 </head>
+
 <body>
-    <header>
+    
         <h1>Score Keeper</h1>
-    </header>
 
-    <button class="btnPlayer1" onclick="scoreIncrement1()">Player1</button>
-    <button class="btnPlayer2" onclick="scoreIncrement2()">player2</button>
+
+    <button class="btnPlayer1" onclick="scoreIncrement1()">Player 1</button>
+    <button class="btnPlayer2" onclick="scoreIncrement2()">player 2</button>
     <button class="btnReset" onclick= "resetScore()">Reset</button>
-    <p class="scorePlayer1">0</p>
-    <p class="scorePlayer2">0</p>
-    <p class="maxScore">5</p> 
 
- <script src="script.js"></script>   
+    <!-- <p class="scorePlayer1">0</p>
+    <p class="scorePlayer2">0</p>
+    <p class="maxScore">maxScore : 5</p> -->
+    
+
+     <div class="scoreboard">
+        <h2>Scoreboard</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td class="scorePlayer1">0</td>
+              <td class="scorePlayer2">0</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th>Player 1</th>
+              <th>Player 2</th>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+  
+ <script src="script.js"></script>
+    
 </body>
 </html>
