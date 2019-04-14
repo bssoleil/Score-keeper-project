@@ -51,6 +51,8 @@ button {
     border-bottom: 1px solid black;
     margin: 0;
     padding: 10px;
+    background-color: lightslategrey;
+
   }
   .scoreboard table {
     margin: 40px auto;
@@ -70,6 +72,27 @@ button {
   font-size: 3em;
   padding: 30px 20px;
 }
+
+
+.darkMode {
+  background-color : grey;
+  opacity: 0.7;
+ }
+
+.darkMode h1 {
+ color: #f5f5ff;
+}
+
+.darkMode button:hover {
+  color: #f5f5ff;
+}
+
+.darkMode-button {
+  position: absolute;
+    top: 10px;
+left: 10px; 
+}
+
 
 
 
